@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'ecomerce_app/home_screen.dart';
+import 'ecomerce_app/second_screen.dart';
 import 'ecomerce_app/splash_screen.dart';
 
 void main(){
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: secondScreen(),
     );
   }
 }
